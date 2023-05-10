@@ -5,8 +5,29 @@ body {
   color: #00ff00;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-y: auto; /* Mengizinkan scroll vertikal */
+  overflow-x: hidden; /* Menyembunyikan scroll horizontal */
 }
+
+table {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+td { 
+  padding: 10px;
+}
+body::-webkit-scrollbar {
+  width: 0px; /* Atur lebar scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #000000; /* Atur warna track scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #00ff00; /* Atur warna thumb scrollbar */
+}
+
 
 .container {
   max-width: 600px;
@@ -168,3 +189,22 @@ border-radius: 10px;
 canvas {display: block;}
 
 footer {background-color: rgba(0, 0, 0, 0.7);padding: 10px;text-align: center;color: #00ff00;font-size: 14px; }
+
+a {
+  text-decoration: none; /* Menghilangkan underline */
+  font-weight: bold; /* Membuat huruf lebih tebal */
+  color: #ff0000; /* Mengubah warna teks menjadi hijau */
+}
+
+.KIJANG777 {
+  width: 100%;
+}
+
+.KIJANG777 th {
+  text-align: center;
+  font-weight: bold;
+}
+
+.KIJANG777 .tab-title {
+  font-weight: bold;
+}
