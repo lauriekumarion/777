@@ -40,6 +40,7 @@ body::-webkit-scrollbar-thumb {
   position: sticky;
   top: 0;
   z-index: 999;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .logo img {
