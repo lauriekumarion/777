@@ -10,7 +10,7 @@ body {
 }
 
 table {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 td { 
@@ -40,7 +40,7 @@ body::-webkit-scrollbar-thumb {
   position: sticky;
   top: 0;
   z-index: 999;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .logo img {
@@ -80,7 +80,7 @@ body::-webkit-scrollbar-thumb {
 .article {
 text-align: justify;
 line-height: 1.5;
-background-color: rgba(0, 0, 0, 0.7);
+background-color: rgba(0, 0, 0, 0.75);
 padding: 20px;
 border-radius: 10px;
 }
