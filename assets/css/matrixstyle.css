@@ -208,3 +208,30 @@ a {
 .KIJANG777 .tab-title {
   font-weight: bold;
 }
+
+.text-marquee {
+  overflow: hidden;
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.text-marquee__content {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  white-space: nowrap;
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
