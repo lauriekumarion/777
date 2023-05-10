@@ -40,11 +40,10 @@ body::-webkit-scrollbar-thumb {
   position: sticky;
   top: 0;
   z-index: 999;
-  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .logo img {
-  width: 100px;
+  width: 350px;
   height: auto;
 }
 
@@ -101,7 +100,7 @@ border-radius: 10px;
   }
 
   .logo img {
-    width: 70px;
+    width: 350px;
   }
 
   .btn {
