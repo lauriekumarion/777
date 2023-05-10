@@ -57,10 +57,18 @@ body::-webkit-scrollbar-thumb {
   display: inline-block;
   padding: 10px 20px;
   margin: 0 10px;
-  background-color: #00ff00;
-  color: #000;
   text-decoration: none;
   border-radius: 4px;
+}
+
+.daftar {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.login {
+  background-color: #0000ff;
+  color: #fff;
 }
 
 .btn:hover {
